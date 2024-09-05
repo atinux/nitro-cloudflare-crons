@@ -1,4 +1,4 @@
-# Using Cloudflare Crons with Nitro
+# Using Cloudflare Crons Triggers with Nitro ⏲️
 
 This is an example of using [Nitro scheduled tasks](https://nitro.unjs.io/guide/tasks#scheduled-tasks) with Cloudflare Workers [Crons Triggers](https://developers.cloudflare.com/workers/configuration/cron-triggers/).
 
