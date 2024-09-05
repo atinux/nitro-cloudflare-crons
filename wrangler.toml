@@ -1,0 +1,10 @@
+# https://nitro.unjs.io/deploy/providers/cloudflare#cloudflare-module-workers
+name = "nitro-crons-cloudflare"
+main = "./.output/server/index.mjs"
+compatibility_date = "2024-09-05"
+[site]
+bucket = ".output/public"
+
+# https://developers.cloudflare.com/workers/configuration/cron-triggers/
+[triggers]
+crons = ["* * * * *"]
